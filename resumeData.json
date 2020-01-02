@@ -1,10 +1,7 @@
 {
   "main": {
     "name":"Jiayi Li",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "oliver_li@yahoo.com",
     "phone": "858-214-4320",
@@ -15,7 +12,7 @@
       "zip": "92037"
     },
     "website": "https://oliver-lijiayi.github.io/home-page/",
-    "resumedownload":"resume_JiayiLi.pdf",
+    "resumedownload":"https://github.com/oliver-lijiayi/home-page/raw/gh-pages/resume_JiayiLi.pdf",
     "social":[
       {
         "name":"facebook",
@@ -35,110 +32,91 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Experienced in Software & Web Development, familiar with frameworks like Spring, Core Java, Google Guice, React and so on",
     "education":[
       {
         "school":"University of San Diego",
         "degree":"M.S. in Computer Engineering",
         "graduated":"April 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"GPA:3.52/4.0"
       },
       {
         "school":"University of Electronic Science and Technology of China",
         "degree":"B.S. in Electronic and Information Engineering",
         "graduated":"June 2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"GPA:3.92/4.0"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Amazon Web Services",
+        "title":"SDE Intern",
+        "years":"June 2019 - September 2019",
+        "description":{
+          "stacks":"React, Redux-Saga, RESTful API, Mapbox GL, AWS components(Lambda, DynamoDB, Redshift)",
+          "points":[
+            "Added new feature to internal tool, which visualizes internal data on the map.",
+            "Created UI Component using react-redux (for state control) and redux-saga (for async actions).",
+            "Designed unified query API for multiple-endpoints(SQL and No-SQL) with GraphQL.",
+            "Implemented AWS Lambda to fetch and transform backend data.",
+            "Enabled AWS resource cross-region access and permission control by configuring Virtual Private Cloud (VPC) and Identity and Access Management (IAM).",
+            "Used Agile and Scrum framework. Involved in Sprint Planning, Stand-up, and Retro meetings."
+          ]
+        }      
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"TD Tech",
+        "title":"Android SDE Intern",
+        "years":"June 2018 - Augest 2018",
+        "description":{
+          "stacks":"Apache Commons Net, Android SDK (API level 24)",
+          "points":[
+            "Developed an Android bug report App to capture, compress and upload logs to server.",
+            "Implemented FTP file upload feature with Apache Commons Net.",
+            "Implemented FTP file upload feature with Apache Commons Net.",
+            "Customized a State Progress Bar and a Circular Progress Bar to promote UI consistency.",
+            "Created an automation shell script for Android development (getting the signature and installing App)."
+          ]
+        }      
       }
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
+        "name":"Core Java",
+        "level":"90%"
       },
       {
-        "name":"Illustrator",
+        "name":"Restful API",
+        "level":"50%"
+      },
+      {
+        "name":"Spring",
         "level":"55%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"DBMS(Relational & Unrelational)",
+        "level":"70%"
+      },
+      {
+        "name":"GraphQL",
+        "level":"80%"
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "level":"70%"
+      },    
+      {
+        "name":"Multithreading/Concurrency",
+        "level":"50%"
       }
     ]
   },
   "portfolio":{
     "projects": [
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
-      }
     ]
   }
 }
